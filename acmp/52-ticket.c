@@ -1,0 +1,13 @@
+#include<stdio.h>
+intmain(void)
+{
+FILE*i,*o;
+charA[9];
+o=fopen("OUTPUT.TXT","w");
+i=fopen("INPUT.TXT","r");
+fscanf(i,"%s",A);
+if(A[0]+A[1]+A[2]==A[3]+A[4]+A[5])
+fprintf(o,"YES");
+else
+fprintf(o,"NO");
+}
