@@ -9,10 +9,12 @@ int main(int argc, char *argv[])
 	int first;
 	int last;
 	int result;
-	scanf("%d", &w1); scanf("%d", &w2);
-	scanf("%d", &first); scanf("%d", &last);
+	scanf("%d", &w1);
+	scanf("%d", &w2);
+	scanf("%d", &first);
+	scanf("%d", &last);
 	if (first < last) {
-		result = (last - first - 1) * w1 + ((last - first) * 2 * w2) ;
+		result = (last - first - 1) * w1 + ((last - first) * 2 * w2);
 		goto exit;
 	}
 	if (first == last) {
